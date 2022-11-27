@@ -12,6 +12,10 @@ body {
     background-color: #ddddd4;
 }
 
+.container .heading {
+    text-align: center;
+}
+
 .container form {
     display: flex;
     align-items: stretch;
@@ -56,4 +60,28 @@ body {
     -o-border-radius: 5px;
     outline: none;
     transition: all 200ms ease;
+}
+
+.container form button {
+    border: none;
+    padding: 10px 10px;
+    background-color: #97975f;
+    color: white;
+    box-shadow: 0 0 10px #00ac002e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #6c6c3d;
+    color: white;
+    box-shadow: 0 0 10px #5b5b5b4a;
+    transition: all 200ms ease;
+    cursor: pointer;
 }
