@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-family: montserrat;
+    /* background-color: #ddddd4; */
+    background-color: #000;
+}
+
+.container .heading {
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #f9f9f9; */
+    background-color: #9c9c9c;
+    padding: 60px 70px 60px 70px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 15px #72726d22;
+}
+
+.container form input {
+    box-shadow: 0 0 10px #58585810;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+}
+
+.container form input:hover {
+    border: none;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px #58585832;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    transition: all 200ms ease;
+}
+
+.container form button {
+    border: none;
+    padding: 10px 10px;
+    background-color: #97975f;
+    color: white;
+    box-shadow: 0 0 10px #00ac002e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #6c6c3d;
+    color: white;
+    box-shadow: 0 0 10px #5b5b5b4a;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
