@@ -1,6 +1,6 @@
 <?php
 /* Sürücü isteğiyle bir MySQL veritabanına bağlanalım */
-$dsn = 'mysql:dbname=kutuphane;host=127.0.0.1';
+$dsn = 'mysql:dbname=kutuphane;host=localhost';
 $user = 'root';
 $password = '';
 

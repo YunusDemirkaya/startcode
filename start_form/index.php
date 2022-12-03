@@ -1,15 +1,7 @@
 <?php
 
- require 'config.php';
-
-
-
-
-
-
+require 'config.php';
 ?>
-
-
 
 
 
@@ -24,7 +16,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Start Code - Form</title>
 </head>
-
 
 
 
@@ -59,17 +50,17 @@
                 </tr>
 
             </table> -->
-<?php
-    //     $sorgu = "Select * from `form_table`";
-    //     $sonuc = $db->query($sorgu);
-        
-    //     While($satir = $sonuc->fetch_assoc())
-    //     {
-    // echo $satir['id'];
-    //     }
+            <?php
+            //     $sorgu = "Select * from `form_table`";
+            //     $sonuc = $db->query($sorgu);
+
+            //     While($satir = $sonuc->fetch_assoc())
+            //     {
+            // echo $satir['id'];
+            //     }
 
 
-?>
+            ?>
 
 
 
