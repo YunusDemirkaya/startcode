@@ -1,5 +1,41 @@
 <?php 
 
+
+
+try {
+
+    $db = new PDO("mysql:host=localhost; dbname=form; charset=utf8", 'root', '');
+
+}
+catch(Exception $e)
+{
+     echo $e->getMessage();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // $servername = "localhost";
 // $database = "veritabaniadi";
 // $username = "root";

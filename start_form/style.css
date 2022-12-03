@@ -9,8 +9,15 @@ body {
     width: 100%;
     height: 100vh;
     font-family: montserrat;
+    background-image: url("https://cdn.wallpapersafari.com/30/0/mCtA9c.jpg");
+    background-size: cover;
     /* background-color: #ddddd4; */
-    background-color: #000;
+    /* background-color: #000; */
+}
+
+label {
+    color: white;
+    font-weight: 300;
 }
 
 .container .heading {
@@ -23,18 +30,19 @@ body {
     justify-content: stretch;
     flex-direction: column;
     gap: 10px;
-    /* background-color: #f9f9f9; */
-    background-color: #9c9c9c;
+    background-color: #12121285;
+    /* background-color: #9c9c9c; */
     padding: 60px 70px 60px 70px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    box-shadow: 0 0 15px #72726d22;
+    box-shadow: 0 5px 27px #5252509c;
 }
 
 .container form input {
+    background: #b2cfe7;
     box-shadow: 0 0 10px #58585810;
     border: none;
     padding: 10px 10px;
@@ -52,6 +60,7 @@ body {
 }
 
 .container form input:hover {
+    background: #fff;
     border: none;
     padding: 10px 10px;
     box-shadow: 0 0 10px #58585832;
@@ -67,7 +76,7 @@ body {
 .container form button {
     border: none;
     padding: 10px 10px;
-    background-color: #97975f;
+    background-color: #5385b1bf;
     color: white;
     box-shadow: 0 0 10px #00ac002e;
     border-radius: 5px;
@@ -81,8 +90,9 @@ body {
 }
 
 .container form button:hover {
-    background-color: #6c6c3d;
-    color: white;
+    background-color: #89beea;
+    color: black;
+    font-weight: bold;
     box-shadow: 0 0 10px #5b5b5b4a;
     transition: all 200ms ease;
     cursor: pointer;
