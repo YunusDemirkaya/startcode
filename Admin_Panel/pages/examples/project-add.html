@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 
 <head>
@@ -45,11 +47,11 @@
                                 <input class="form-control form-control-navbar" name="" type="search" placeholder="Search" aria-label="Search">
                                 <div class="input-group-append">
                                     <button class="btn btn-navbar" type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
+                                        <i class="fas fa-search"></i>
+                                    </button>
                                     <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                    <i class="fas fa-times"></i>
-                  </button>
+                                        <i class="fas fa-times"></i>
+                                    </button>
                                 </div>
                             </div>
                         </form>
@@ -102,7 +104,8 @@
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                        <span class="float-right text-sm text-warning"><i
+                                                class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">The subject goes here</p>
                                     <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
@@ -181,8 +184,8 @@
                         <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
                         <div class="input-group-append">
                             <button class="btn btn-sidebar">
-                <i class="fas fa-search fa-fw"></i>
-              </button>
+                                <i class="fas fa-search fa-fw"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -859,36 +862,43 @@
 
                                 <div class="card-tools">
                                     <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
+                                        <i class="fas fa-minus"></i>
+                                    </button>
                                 </div>
                             </div>
+
                             <div class="card-body">
-                                <div class="form-group">
-                                    <label for="inputName">Proje Adı</label>
-                                    <input type="text" id="inputName" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputDescription">Proje Açıklaması</label>
-                                    <textarea id="inputDescription" class="form-control" rows="4"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputStatus">Durumu</label>
-                                    <select id="inputStatus" class="form-control custom-select">
-                                      <option selected disabled>Seçiniz</option>
-                                      <option>Beklemede</option>
-                                      <option>İptal Edildi</option>
-                                      <option>Başarılı</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputClientCompany">Müşteri Şirketi</label>
-                                    <input type="text" id="inputClientCompany" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputProjectLeader">Proje Lideri</label>
-                                    <input type="text" id="inputProjectLeader" class="form-control">
-                                </div>
+                                <form action="#" method="get">
+                                    <div class="form-group">
+                                        <label for="inputName">Proje Adı</label>
+                                        <input type="text" name="project_name" id="inputName" class="form-control">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="inputDescription">Proje Açıklaması</label>
+                                        <textarea id="inputDescription" name="project_desc" class="form-control" rows="4"></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="inputStatus">Durumu</label>
+                                        <select id="inputStatus" class="form-control custom-select">
+                                            <option selected disabled>Seçiniz</option>
+                                            <option name="project_status">Beklemede</option>
+                                            <option name="project_status">İptal Edildi</option>
+                                            <option name="project_status">Başarılı</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="inputClientCompany">Müşteri Şirketi</label>
+                                        <input type="text" name="project_customer_comp" id="inputClientCompany" class="form-control">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="inputProjectLeader">Proje Lideri</label>
+                                        <input type="text" name="project_leader" id="inputProjectLeader" class="form-control">
+                                    </div>
+                                </form>
                             </div>
                             <!-- /.card-body -->
                         </div>
